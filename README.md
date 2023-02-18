@@ -1,6 +1,6 @@
 # Acciojob_Weekly_Contest_F2_18.02.2023
 
-- Deployed Link-> https://slolusare96.github.io/Acciojob_Weekly_Contest_F2_18.02.2023/
+- Deployed Link: https://slolusare96.github.io/Acciojob_Weekly_Contest_F2_18.02.2023/
 
 - Link to the UI: https://www.figma.com/file/HhuciKWI3eh7dX0w1G2eWf/F2---Contest-2---Feb?node-id=0%3A1&t=PJuwBtnK4JkYLjNp-0
 
