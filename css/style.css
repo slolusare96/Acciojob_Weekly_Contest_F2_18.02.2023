@@ -151,26 +151,10 @@ input:focus {
     padding-right: 15px;
 }
 
-.editIcon{
-    width: 2px;
-    height: 2px;
-    border: 2px solid red;
-}
-
 .lastCell{
     display:flex;
     justify-content: space-between;
     flex-direction: row;
-}
-
-.text{
-    flex: 0.8 auto;
-}
-
-.icon{
-    flex: 0.2 auto;
-    width: 5px;
-    height: 5px;
 }
 
 
