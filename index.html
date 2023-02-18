@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Library Management System - Acciojob Project</title>
+
+    <!-- Linking CSS -->
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <!-- linking JS -->
+    <script src="./js/script.js" defer></script>
+
+    <!-- Adding Favicon-->
+    <link rel="shortcut icon" href="./images/icon.jpg" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+    />
+  </head>
+
+  <body>
+    <div class="outer">
+      <!-- Here we are defining two classes input and output.
+        input class refers to the upper section of the page where 
+        user enters information.
+        output class refers to the table section of the page. 
+        -->
+
+      <div class="input">
+        <h1>Library Management System</h1>
+        <form class="formInpt">
+          <div class="bookName">
+            <div class="labels"><label for="bName">Book Name</label></div>
+            <div class="inputBox">
+              <input type="text" name="bName" id="bName" required />
+            </div>
+          </div>
+          <div class="issuedTo">
+            <div class="labels"><label for="issTo">Issued To</label></div>
+            <div class="inputBox">
+              <input type="text" name="issTo" id="issTo" required />
+            </div>
+          </div>
+          <div class="issueBtn">
+            <input type="submit" value="Issue Book" id="issBtn" />
+          </div>
+        </form>
+      </div>
+
+      <!-- Writing table structure -->
+      <div class="output">
+        <table class="table">
+          <tr>
+            <th style="width: 5%">ID</th>
+            <th style="width: 22.5%">Book Name</th>
+            <th style="width: 22.5%">Issued To</th>
+            <th style="width: 30%">Issue Date and Time</th>
+            <th style="width: 20%">Status</th>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>
